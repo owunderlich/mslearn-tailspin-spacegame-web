@@ -2,8 +2,6 @@ trigger:
 - '*'
 
 pool: 'New Pool'
-  demands:
-  - npm
 
 variables:
   buildConfiguration: 'Release'
